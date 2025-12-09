@@ -17,7 +17,7 @@ function App() {
 ];  
   return (
     <>
-     return (
+     
 <div style={{ padding: "20px", fontFamily: "Arial" }}>
 <h1>Evaluasi Harian React.JS - day 2 Pekan 2</h1>
 
