@@ -86,7 +86,7 @@ function App() {
       </div>
       </div> */}
 
-        <div style ={style}>
+        <div>
           <ProductList />
         </div>
 
