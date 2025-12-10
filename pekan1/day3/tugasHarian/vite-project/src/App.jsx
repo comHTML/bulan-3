@@ -29,7 +29,7 @@ function App() {
 
 
     <Card>
-    <img src="https://via.placeholder.com/150" alt="Sample" />
+    <img src="" alt="Sample" />
     </Card>
 
 
@@ -40,8 +40,8 @@ function App() {
 
     <hr />
     <Comment
-src="https://via.placeholder.com/60"
-name="Raihan"
+src=""
+name=""
 text="Ini adalah komentar dari saya!"
 />
 </div>
