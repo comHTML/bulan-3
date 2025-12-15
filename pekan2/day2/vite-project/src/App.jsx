@@ -8,6 +8,7 @@ import WarningBanner from "./components/WarningBanner";
 import React from "react";
 import ProductList from "./components/ProductList";
 import BadTodoList from "./components/BadTodoList";
+import ItemList from "./components/ItemList";
 
 function App() {
   // const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -93,6 +94,10 @@ function App() {
         <div>
           <BadTodoList />
         </div> 
+
+        <div>
+          <ItemList />
+        </div>
     </div>
     </>
   );

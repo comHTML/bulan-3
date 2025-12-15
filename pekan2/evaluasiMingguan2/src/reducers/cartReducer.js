@@ -1,0 +1,13 @@
+import { CartContext } from "../context/CartContext"; 
+
+
+export const cartReducer = (state, action) => {
+  switch (action.type) {
+    case "ADD_ITEM":
+      return { count: state.count + 1 };
+    case "CLEAR_CART":
+      return { count: 0 };
+    default:
+      return state;
+  }
+};
